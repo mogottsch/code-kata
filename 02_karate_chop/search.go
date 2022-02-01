@@ -1,7 +1,5 @@
 package search
 
-import "fmt"
-
 func binarySearch(needle int, arr []int) int {
 	start := 0
 	end := len(arr)
@@ -12,7 +10,6 @@ func binarySearch(needle int, arr []int) int {
 	}
 
 	for {
-		fmt.Println(len(arr), index)
 		if index >= len(arr) {
 			return -1
 		}
